@@ -4,20 +4,35 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=dark)](https://t.me/nilfoundation)
 [![Twitter](https://img.shields.io/twitter/follow/nil_foundation)](https://twitter.com/nil_foundation)
 
+## Introduction
+
 An application for in-EVM validation of zero-knowledge proofs generated
 with
 the [Placeholder proof system](https://nil.foundation/blog/post/placeholder-proofsystem).
+This repository uses Hardhat as a development environment for compilation,
+testing, and deployment tasks.
 
 ## Dependencies
 
 - [Hardhat](https://hardhat.org/)
-- [Node.js](https://nodejs.org/) - Hardhat requires an LTS version of Node.js; as of September 2023 it's v18
+- [Node.js](https://nodejs.org/) - Hardhat requires an LTS version of Node.js;
+as of October 2023, it's v20.9
 
 ## Contract Addresses
+### Verifier contracts
 
 | Network      | Address |
 | ----------- | ----------- |
 | Sepolia      | [`0x489dbc0762b3d9bd9843db11eecd2a177d84ba2b`](https://sepolia.etherscan.io/address/0x489dbc0762b3d9bd9843db11eecd2a177d84ba2b)      |
+
+### UnifiedAdditionVerifier
+
+[UnifiedAdditionVerifier](https://github.com/NilFoundation/evm-proof-market/blob/master/contracts/verifiers/unified_addition_verifier.sol)
+is a part of [Proof Market's Endpoint](https://nil.foundation/blog/post/proofmarket-evm-endpoint).
+
+| Network      | Address |
+| ----------- | ----------- |
+| Sepolia      | [`0xc6E7A6Dcad73D499520DDdf5d9b56E0E18DD9bAd`](https://sepolia.etherscan.io/address/0xc6E7A6Dcad73D499520DDdf5d9b56E0E18DD9bAd)       |
 
 ## Installing with npm
 
